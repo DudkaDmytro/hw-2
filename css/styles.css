@@ -61,6 +61,10 @@ body {
   /* color: #ffffff; */
 }
 .btn-styles {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
@@ -79,6 +83,15 @@ body {
   line-height: 1.2;
   color: #2e2f42;
 }
+.main-title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 .description {
   font-weight: 400;
   color: #434455;
@@ -91,6 +104,26 @@ body {
 .plug {
   display: none;
 }
-.link-content {
-  text-decoration: none;
+.footer {
+  background: #2e2f42;
+}
+.footer-description {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+.second-letter {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.our-team {
+  background: #f4f4fd;
 }
